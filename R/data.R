@@ -18,17 +18,17 @@
 #' @details The dataset contains the daily summary of the Coronavirus confirmed
 #' cases in South Korea by province and city.
 #' @examples
-#' data(covid_south_korea)
+#' data(covid19sk)
 #'
 #' require(dplyr)
 #'
 #' # Get summary of total cases by city
 #'
-#' covid_south_korea %>%
+#' covid19sk %>%
 #'   group_by(city) %>%
 #'   summarise(total_cases = sum(total))
 #'
-"covid_south_korea"
+"covid19sk"
 
 
 #' The 2019 Novel Coronavirus COVID-19 (2019-nCoV) Iran Outbreak Dataset
@@ -49,14 +49,14 @@
 #' @keywords datasets coronavirus COVID19 Iran
 #' @details The dataset contains the cases in Iran by region and province.
 #' @examples
-#' data(covid_iran)
+#' data(covid19iran)
 #'
 #' require(dplyr)
 #'
 #' # Get summary of total cases by province
 #'
-#' covid_iran %>%
+#' covid19iran %>%
 #'   group_by(province) %>%
 #'   summarise(total = sum(cases))
 #'
-"covid_iran"
+"covid19iran"
