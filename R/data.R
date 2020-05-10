@@ -20,13 +20,7 @@
 #' @examples
 #' data(covid19sk)
 #'
-#' require(dplyr)
-#'
-#' # Get summary of total cases by city
-#'
-#' covid19sk %>%
-#'   group_by(city) %>%
-#'   summarise(total_cases = sum(total))
+#' head(covid19sk)
 #'
 "covid19sk"
 
@@ -41,7 +35,7 @@
 #'   \item{date}{Date in YYYY-MM-DD format.}
 #'   \item{region}{Name of region.}
 #'   \item{province}{Name of province.}
-#'   \item{total}{Number of confirmed cases.}
+#'   \item{cases}{Number of confirmed cases.}
 #'   }
 #' @source Wikipedia contributors. 2020 coronavirus pandemic in Iran.
 #' In Wikipedia, The Free Encyclopedia. Retrieved from
@@ -51,12 +45,6 @@
 #' @examples
 #' data(covid19iran)
 #'
-#' require(dplyr)
-#'
-#' # Get summary of total cases by province
-#'
-#' covid19iran %>%
-#'   group_by(province) %>%
-#'   summarise(total = sum(cases))
+#' head(covid19iran)
 #'
 "covid19iran"
