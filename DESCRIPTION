@@ -1,13 +1,14 @@
 Package: covid19wiki
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Covid19 Datasets from Wikipedia
+Version: 0.0.0.9000
+Authors@R: person("Rami", "Krispin", email = "rami.krispin@gmail.com",
+  role = c("aut", "cre"))
+Maintainer: Rami Krispin <rami.krispin@gmail.com>
+Description: A set of Covid19 related datasets sourced from Wikipedia COVID-19 pandemic page <https://en.wikipedia.org/wiki/COVID-19_pandemic>.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
+RoxygenNote: 7.1.0
