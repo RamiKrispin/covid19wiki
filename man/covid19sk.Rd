@@ -32,13 +32,7 @@ cases in South Korea by province and city.
 \examples{
 data(covid19sk)
 
-require(dplyr)
-
-# Get summary of total cases by city
-
-covid19sk \%>\%
-  group_by(city) \%>\%
-  summarise(total_cases = sum(total))
+head(covid19sk)
 
 }
 \keyword{COVID19}
